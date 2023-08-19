@@ -5,16 +5,11 @@ body{
 }   
 .title{
     display: block;
-    position: fixed;
+    position: relative;
     left: 730px;
     top: 45px;
-
 }
-/* .title__main{
-    display: block;
-    width: 600px;
-    height: 60px;
-} */
+
 .title__main::before {
     content: '';
     display: block;
@@ -22,11 +17,10 @@ body{
     height: 100PX;
     background-color: #dd56c0;
     border-radius:50px ;
-    position: fixed;
-    left: 598px;
-    top: 45px;
+    position: absolute;
+    right: 1943px;
+    bottom: -8px;
 
-    
 }
 .title__main::after {
     content: '';
@@ -35,8 +29,7 @@ body{
     height: 100PX;
     background-color: #3d369a;
     border-radius:50px ;
-    position: fixed;
-    left: 1113px;
-    top: 45px;
-
+    position: absolute;
+    right: 1453px;
+    bottom: -8px;
 }
